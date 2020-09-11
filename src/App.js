@@ -35,7 +35,7 @@ export default function App() {
           <button className="btn blue">
             <FontAwesomeIcon className="icon" size="2x" icon={faMinusCircle} />
           </button>
-          <span>1</span>
+          <span>2</span>
           <button className="btn red">
             <FontAwesomeIcon className="icon" size="2x" icon={faPlusCircle} />
           </button>
