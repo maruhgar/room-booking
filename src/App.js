@@ -21,7 +21,10 @@ export default function App() {
         <div className="row">
           <FontAwesomeIcon className="icon blue" icon={faBed} />
           Rooms
-          <button className="btn blue">
+          <button
+            className="btn blue"
+            onClick={(e) => console.log(`Clicked ${e.target.value}`)}
+          >
             <FontAwesomeIcon className="icon" size="2x" icon={faMinusCircle} />
           </button>
           <span>1</span>
